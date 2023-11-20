@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gestor de Archivos Azure</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Gestor de Archivos Azure</h1>
+
+        <section class="upload-section">
+            <h2>Subir Archivo</h2>
+            <input type="file" id="file-input" />
+            <button onclick="uploadFile()">Subir Archivo</button>
+        </section>
+
+        <section class="files-section">
+            <h2>Archivos en Azure</h2>
+            <ul id="file-list"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
